@@ -3,6 +3,7 @@ package red.man10.man10commandlibrary;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import red.man10.man10commandlibrary.Lib.Example_mPlugin;
+import red.man10.man10commandlibrary.Lib.IK_randomChoice;
 import red.man10.man10commandlibrary.Lib.Your_mPlugin;
 
 import java.io.File;
@@ -23,6 +24,7 @@ public class MCLData {
         /////////////////////////////////////////////////
         new Example_mPlugin(mcl);
         new Your_mPlugin(mcl);
+        new IK_randomChoice(mcl);
     }
 
     //プラグインリスト取得

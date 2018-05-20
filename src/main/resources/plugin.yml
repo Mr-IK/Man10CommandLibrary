@@ -8,6 +8,10 @@ commands:
     description: man10commandlibrary_maincommand
     usage: /<command>
     default: op
+  irc:
+    description: mcl_irc
+    usage: /<command>
+    default: op
 ##ここ、your_mpのところを、自分の実装したコマンドの名称に変更してね
 ##コマンドをそもそも使わないならyour_mpの下は消していいよ!
   your_mp:
