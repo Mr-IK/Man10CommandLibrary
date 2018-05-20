@@ -26,3 +26,5 @@
 
 ### Update_History
   v1.0.0 作成。誰でも簡単にmPluginが作れる試作品。
+
+  v1.0.1 アプデ。 -> IRC(IK_randomchoice)追加 (サーバー内の誰かをランダムでチョイスする)
