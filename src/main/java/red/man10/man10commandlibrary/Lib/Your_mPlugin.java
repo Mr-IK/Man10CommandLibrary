@@ -7,6 +7,7 @@ import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerLoginEvent;
 import red.man10.man10commandlibrary.MCLData;
 import red.man10.man10commandlibrary.Man10CommandLibrary;
@@ -16,6 +17,8 @@ public class Your_mPlugin implements CommandExecutor, Listener {
     String myPluginname;
     Man10CommandLibrary mcl;
     public Your_mPlugin(Man10CommandLibrary mcl){
+        this.mcl = mcl;
+
         //ここに自分のプラグインの名前を入力してください。(他の人と被らないように)
         myPluginname = "Your_mPlugin";
 
@@ -55,7 +58,7 @@ public class Your_mPlugin implements CommandExecutor, Listener {
 
     //イベントハンドラの使い方は http://man10.red/2018/05/20/spigotプラグイン講座3-3イベントをキャンセルしよう/ などで勉強しよう
     @EventHandler
-    public void onLogin(PlayerLoginEvent e){
+    public void onLogin(PlayerJoinEvent e){
         e.getPlayer().sendMessage("§d§l"+myPluginname+": §f起動しています");
     }
 }
