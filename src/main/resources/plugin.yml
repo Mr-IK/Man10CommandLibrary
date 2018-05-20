@@ -1,0 +1,16 @@
+name: Man10CommandLibrary
+version: ${project.version}
+main: red.man10.man10commandlibrary.Man10CommandLibrary
+authors: [Mr_IK]
+description: Man10_miniPlugins_gathering
+commands:
+  mcl:
+    description: man10commandlibrary_maincommand
+    usage: /<command>
+    default: op
+##ここ、your_mpのところを、自分の実装したコマンドの名称に変更してね
+##コマンドをそもそも使わないならyour_mpの下は消していいよ!
+  your_mp:
+    description: mcl_your_mp
+    usage: /<command>
+    default: op
