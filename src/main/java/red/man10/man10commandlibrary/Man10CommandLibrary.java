@@ -12,12 +12,11 @@ public final class Man10CommandLibrary extends JavaPlugin {
 //     ライブラリにmPluginを追加したい？僕に相談してね
 //////////////////////////////////////////////////////////
 
-
-
     @Override
     public void onEnable() {
         // Pluginが読み込まれた
         new MCLData(this);
+        getCommand("mcl").setExecutor(new MCLMainCommand(this));
     }
 
     @Override

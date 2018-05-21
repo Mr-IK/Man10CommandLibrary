@@ -17,7 +17,14 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class IK_randomChoice implements CommandExecutor, Listener {
+public class IK_randomChoice implements CommandExecutor {
+
+    //////////////////////////////////////////////
+    //    IK_randomChoice
+    //   created by Mr_IK(https://twitter.com/Mr_IK2302)
+    //
+    //   Choose one from within the server mPlugin.
+    //////////////////////////////////////////////
 
     String myPluginname;
     Man10CommandLibrary mcl;

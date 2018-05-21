@@ -28,3 +28,7 @@
   v1.0.0 作成。誰でも簡単にmPluginが作れる試作品。
 
   v1.0.1 アプデ。 -> IRC(IK_randomchoice)追加 (サーバー内の誰かをランダムでチョイスする)
+
+  v1.0.2 アプデ。 -> VaultManager実装。元Example_mPluginはメインコマンドクラスに移送
+
+                    新Example_mPluginにconfigとvaultを使用するように。

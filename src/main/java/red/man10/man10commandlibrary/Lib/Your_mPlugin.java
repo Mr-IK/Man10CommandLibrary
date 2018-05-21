@@ -19,10 +19,10 @@ public class Your_mPlugin implements CommandExecutor, Listener {
     public Your_mPlugin(Man10CommandLibrary mcl){
         this.mcl = mcl;
 
-        //ここに自分のプラグインの名前を入力してください。(他の人と被らないように)
+        //ここに自分のmPluginの名前を入力してください。(他の人と被らないように)
         myPluginname = "Your_mPlugin";
 
-        //プラグインリストへのデータ送信。リストに載りたくない場合は削除
+        //mPluginリストへのデータ送信。リストに載りたくない場合は削除
         MCLData.mPluginList.add(myPluginname);
 
         //コマンドが使いたい場合は下の例に沿って入力する。
@@ -50,9 +50,9 @@ public class Your_mPlugin implements CommandExecutor, Listener {
             return true;
         }
         Player p = (Player)sender;
-        p.sendMessage("§e§l==============[デフォ]==============");
-        p.sendMessage("§6§lいますぐ自分のプラグインを作ってみよう！");
-        p.sendMessage("§e§l=================================");
+        p.sendMessage("§e§l==============[Default]==============");
+        p.sendMessage("§6§lいますぐ自分のmPluginを作ってみよう！");
+        p.sendMessage("§e§l=====================================");
         return true;
     }
 

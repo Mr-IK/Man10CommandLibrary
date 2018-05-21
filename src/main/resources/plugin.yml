@@ -12,6 +12,10 @@ commands:
     description: mcl_irc
     usage: /<command>
     default: op
+  mbal:
+    description: mcl_your_mp
+    usage: /<command>
+    default: op
 ##ここ、your_mpのところを、自分の実装したコマンドの名称に変更してね
 ##コマンドをそもそも使わないならyour_mpの下は消していいよ!
   your_mp:
