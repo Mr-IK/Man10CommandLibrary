@@ -29,6 +29,4 @@
 
   v1.0.1 アプデ。 -> IRC(IK_randomchoice)追加 (サーバー内の誰かをランダムでチョイスする)
 
-  v1.0.2 アプデ。 -> VaultManager実装。元Example_mPluginはメインコマンドクラスに移送
-
-                    新Example_mPluginにconfigとvaultを使用するように。
+  v1.0.2 アプデ。 -> VaultManager実装。元Example_mPluginはメインコマンドクラスに移送 新Example_mPluginにconfigとvaultを使用するように。
